@@ -72,11 +72,3 @@ class Counter {
 }
 
 export default Counter
-
-// Example usage
-//const dreaminCountdown = new Countdown({
-//    container: '#dreamin',
-//    date: '2024-03-24',
-//    time: '20:42:00',
-//    postMessage: 'Personalised post counter message', //or simply, true, for default message
-//});
