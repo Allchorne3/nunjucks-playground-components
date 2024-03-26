@@ -1,0 +1,10 @@
+{% macro countdown(options) %}
+    <div id="{{ options.container }}" class="countdown-container" data-date="{{ options.date }}" {% if options.time %}data-time="{{ options.time }}"{% endif %} {% if options.postMessage %}data-post-message="{{ options.postMessage }}"{% endif %}>
+        <div class="is-countdown">
+            <div class="days"><span>00</span> Days</div>
+            <div class="hours"><span>00</span> Hours</div>
+            <div class="minutes"><span>00</span> Minutes</div>
+            <div class="seconds"><span>00</span> Seconds</div>
+        </div>
+    </div>
+{% endmacro %}
