@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as *;
+
+#page-countdown {
+    text-align: right;
+    font-size: $fs-3;
+    padding: 1rem;
+
+    h5 {
+        font-size: $fs-4;
+    }
+}
