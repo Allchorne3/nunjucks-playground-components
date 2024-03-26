@@ -1,5 +1,5 @@
 import moment from 'moment'
-import isValidTime from './utils/validTime.js'
+import isValidTime from 'Utils/validTime.js'
 
 class Countdown {
     constructor(options) {

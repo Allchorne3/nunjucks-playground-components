@@ -1,4 +1,4 @@
-import Countdown from './countdown.js'
+import Countdown from 'Scripts/countdown.js'
 
 const dreaminCountdown = new Countdown({
     container: '#dreamin',
