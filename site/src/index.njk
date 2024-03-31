@@ -3,4 +3,8 @@ layout: base.njk
 title: Example
 ---
 
+{% import "add-to-calendar.njk" as atc %}
 
+{{ atc.addToCalendar({
+    key: '3998324c-79ce-4e9d-8733-cf51c1780662'
+}) }}

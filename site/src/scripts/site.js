@@ -1,4 +1,5 @@
 import CountdownV2 from 'Scripts/countdown-v2.js'
+import 'add-to-calendar-button';
 
 // JS DEFINED COUNTDOWN CLASS
 // const dreaminCountdown = new Countdown({
