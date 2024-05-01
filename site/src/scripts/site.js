@@ -1,4 +1,5 @@
 import CountdownV2 from 'Scripts/countdown-v2.js'
+import Accordion from 'Scripts/accordion'
 import 'add-to-calendar-button';
 
 // JS DEFINED COUNTDOWN CLASS
@@ -19,3 +20,6 @@ if(counters) {
         const countdown = new CountdownV2({container: `#${counter.getAttribute('id')}`})
     }
 }
+
+
+Accordion.setupAccordion();

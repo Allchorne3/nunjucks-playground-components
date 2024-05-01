@@ -8,5 +8,7 @@
 @use 'sections/header';
 @use 'sections/footer';
 
+@use 'components/accordion';
+
 @use 'pages/index';
 @use 'pages/countdown';

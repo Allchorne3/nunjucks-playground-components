@@ -1,0 +1,56 @@
+.accordion {
+    &:not(:last-child) {
+        margin-bottom: .5rem;
+    }
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 1.5rem 2rem 1.5rem;
+        border: 0;
+        text-align: left;
+        background: lightgrey;
+    }
+    
+    &-title {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .indicator {
+        &-plus {
+            display: block;
+        }
+
+        &-minus {
+            display: none;
+        }
+    }
+    
+    &.is-open {
+        .indicator {
+            // width: 1rem;
+
+            &-plus {
+                display: none;
+            }
+    
+            &-minus {
+                display: block;
+            }
+        }
+    }
+
+    &-content {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s ease-out;
+
+        &_inner {
+            padding: 2rem;
+        }
+    }
+}
